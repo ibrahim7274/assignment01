@@ -6,9 +6,9 @@
 }
 
 
-.backgroung{ 
+ .backgroung{ 
     background-image:url('../Assets/Hero-bg.png') ;
-}
+} 
      
      .side-by-side{
         display: flex;
@@ -43,6 +43,7 @@ h1{
 .bold{
     font-weight: bold;
     font-size:20px;
+    
 }
 .p-color{
     color: #252432;
@@ -56,4 +57,67 @@ main{
 }
 .img{
     margin-right: 150px;
+}
+.number{
+font-size:20px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+ /* .box{
+    background-color:#dfdbff; 
+    margin-left:80px;
+    margin-right: 80px;
+    border-radius:20px;
+    height:180px;
+} */
+ 
+.number p{
+    font-size:10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f2f8fc;
+}
+
+/* Section container */
+.stats-section {
+  background-color: #e9e9fc;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+/* Main heading */
+.stats-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Stats container */
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual stat box */
+.stat-box h3 {
+  font-size: 28px;
+  color: #4f46e5;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #444;
 }
