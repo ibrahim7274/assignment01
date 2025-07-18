@@ -1,4 +1,7 @@
 
+
+
+
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -7,7 +10,7 @@
 
 
  .backgroung{ 
-    background-image:url('../Assets/Hero-bg.png') ;
+    background-image:url("./Assets/Hero-bg.png") ;
 } 
      
      .side-by-side{
@@ -180,6 +183,55 @@ body {
   border-radius: 50%;
   margin-right: 10px;
 }
-/* .margin-box1{
-  margin-left:50px;
-} */
+/* form section */
+.contact-container{
+  display: flex;
+  margin-left: 400px;
+  gap: 100px;
+  
+
+}
+ .contact-text{
+  font-weight: bold;
+  color: #000000;
+font-size:40px; 
+  
+ }
+
+
+input{
+  width:267px;
+  height:35px;
+  border: none;
+  border-radius:2px;
+}
+
+label{
+  font-weight: bold;
+}
+.logo-last{
+  color:rgb(79, 70, 229);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+font-family: "Open Sans", sans-serif;
+margin-bottom:0 ;
+}
+.dicribe{
+  color: #8987A1;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 0;
+}
+.nav-section{
+  
+  display: flex;
+  margin-left: 500px;
+  gap: 25px;
+  font-size:10px;
+}
+.last-container{
+  background-color:rgb(255, 255, 255);
+  height: 150px;
+  padding-bottom: 50px;
+}
